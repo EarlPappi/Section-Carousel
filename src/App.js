@@ -9,24 +9,38 @@ function App() {
       img: deposit,
       title: "Lorem Ipsuum",
       body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quam cum voluptas facilis rem fuga!",
-      bgcolor: "red"
+      bgcolor: "#EE2737"
     },
     {
       img: hash,
       title: "Deposit",
       body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quam cum voluptas facilis rem fuga!",
-      bgcolor: "green"
+      bgcolor: "#00AA13"
     },
     {
       img: deposit,
       title: "Hash",
       body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quam cum voluptas facilis rem fuga!",
-      bgcolor: "blue"
+      bgcolor: "#F06400"
+    },
+    ,
+    {
+      img: deposit,
+      title: "Hash",
+      body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quam cum voluptas facilis rem fuga!",
+      bgcolor: "#93328E"
+    },
+    ,
+    {
+      img: deposit,
+      title: "Hash",
+      body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quam cum voluptas facilis rem fuga!",
+      bgcolor: "#DF1995"
     }
   ]
 
 
-  
+
 
 
   return (
@@ -34,21 +48,21 @@ function App() {
       <Carousel slides={
         dataz.map((data) => {
           return (
-            <div className='rounded-lg flex py-8 items-center w-full flex-col-reverse sm:flex-row' style={{
+            <div className='rounded-3xl flex py-8 px-8 items-center w-full flex-col-reverse sm:flex-row' style={{
               backgroundColor: `${data.bgcolor}`
             }}>
               <div className='flex-1'>
-                <img src={data.img} alt=""/>
+                <img src={data.img} alt="" />
               </div>
 
               <div className='flex-1 px-8 py-8'>
-                <h2 className='text-xl sm:text-3xl font-bold text-white py-4'>{ data.title }</h2>
-                <p className='text-white'>{ data.body }</p>
+                <h2 className='text-xl sm:text-3xl font-bold text-white py-4'>{data.title}</h2>
+                <p className='text-white'>{data.body}</p>
               </div>
             </div>
           )
         })
-      } arrow ={true} arrowBorders={true}/>
+      } arrow={true} arrowBorders={true} />
 
       <div>
 

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    border: none !important;
+}
+
+.slider-single-content{
+    border-radius: 2rem;
+    /* width: 80%;
+    margin: 0 auto; */
+}
