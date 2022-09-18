@@ -23,14 +23,12 @@ function App() {
       body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quam cum voluptas facilis rem fuga!",
       bgcolor: "#F06400"
     },
-    ,
     {
       img: deposit,
       title: "Hash",
       body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quam cum voluptas facilis rem fuga!",
       bgcolor: "#93328E"
     },
-    ,
     {
       img: deposit,
       title: "Hash",
