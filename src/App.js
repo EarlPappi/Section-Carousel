@@ -2,6 +2,7 @@ import './App.css';
 import { Carousel } from '3d-react-carousal';
 import deposit from "./deposite-funds.png";
 import hash from "./hash.png"
+import NewSection from './NewSection';
 
 function App() {
   const dataz = [
@@ -42,6 +43,7 @@ function App() {
 
 
   return (
+    <>
     <div className=" my-8">
       <Carousel slides={
         dataz.map((data) => {
@@ -63,9 +65,12 @@ function App() {
       } arrow={true} arrowBorders={true} />
 
       <div>
-
       </div>
     </div>
+
+    <NewSection/>
+
+    </>
   );
 }
 
