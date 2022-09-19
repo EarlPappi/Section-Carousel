@@ -1,13 +1,18 @@
-.mainCon{
+.mainCon {
     background: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
-.InnerDiv{
-    border: red solid 2px;
-    float: right;
-    width: 40%;
-    position: relative;
-    top: 30%;
+
+.innerDiv h1{
+    
+}
+@media (min-width: 640) {
+    .InnerDiv {
+        float: right;
+        width: 40%;
+        position: relative;
+        top: 30%;
+    }
 }
