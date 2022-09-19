@@ -6,7 +6,7 @@ const NewSection = () => {
             backgroundImage: `url(${Bg})`,
         }}>
             <div className={ `${classes.InnerDiv}` }>
-                <h1 className='py-5 text-2xl w-2/3'>
+                <h1 className='py-5 text-2xl w-2/3 font-bold'>
                     Once a call-centre operation in Jakarta, now a Decacorn in Southeast Asia.
                 </h1>
 
